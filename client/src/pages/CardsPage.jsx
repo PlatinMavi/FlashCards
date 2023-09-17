@@ -11,7 +11,7 @@ export default function CardsPage(){
         .then(data => setData(data))
     },[])
     return (
-        <div className="flex flex-col h-full justify-center">
+        <div className="flex flex-col h-full justify-center ">
             {data.map((element, index) => 
                 <div key={index}>
                     <div className="flex flex-col md:flex-row space-x-0 md:space-x-8 space-y-12  md:space-y-0 justify-center items-center mt-10">
